@@ -70,7 +70,7 @@ img {
     background: url('../images/') no-repeat;
     background-size: contain;
     background-position: center bottom;
-    height: 400px
+    height: auto
 }
 
 .hero .hero-content {
@@ -92,9 +92,7 @@ img {
     width: 100%;
     text-align: center;
 }
-.footer {
-    padding: 20px 0;
-}
+
 .footer h4 {
     margin-bottom: 10px;
     color: #ccc; /* Set a contrasting color */
@@ -125,8 +123,7 @@ img {
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 15 px;
-    overflow: visible;
+    padding: 0 15px;
 }
 
 .container-sm {
@@ -340,17 +337,22 @@ img {
   text-align: left;
   display: flex;
   align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
 }
 
 .collapsible-icon {
   margin-right: 10px;
   font-size: 1.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+.collapsible-content {
+    display: none;
+    padding: 1px;
+    padding-left: 15px; /* Added padding to the left side */
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+    background-color: transparent;
 }
 
-.collapsible-content {
-  display: none;
-  padding: 14px;
-  border-top: none;
-  border-radius: 0 0 6px 6px;
-  background-color: transparent;
-}
