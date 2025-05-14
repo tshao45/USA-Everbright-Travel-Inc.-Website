@@ -61,32 +61,39 @@ img {
 }
 
 /* Hero */
+
 .hero {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .hero .container {
     background: url('../images/') no-repeat;
     background-size: contain;
     background-position: center bottom;
-    height: 550px
+    height: 400px
 }
 
 .hero .hero-content {
-    width: 70%;
+    width: 80%;
 }
 
 .hero .hero-text {
     width: 70%;
-    margin-bottom: 20px
+    margin-bottom: 0px
 }
 
 /* Footer */
 .footer {
-    padding: 40px 0;
+    padding: 20px 0;
+    background-color: var(--dark-color);
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 .footer {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 .footer h4 {
     margin-bottom: 10px;
@@ -119,6 +126,7 @@ img {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 15 px;
+    overflow: visible;
 }
 
 .container-sm {
@@ -317,4 +325,32 @@ img {
     .text-md {
         font-size: 1.1rem;
     }
+}
+
+/* Collapse */
+.collapsible-title {
+  background-color: transparent;
+  color: #000;
+  cursor: pointer;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.collapsible-icon {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.collapsible-content {
+  display: none;
+  padding: 14px;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  background-color: transparent;
 }
