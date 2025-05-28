@@ -78,7 +78,6 @@ img {
 
 .hero .hero-text {
     width: 100%;
-    margin-bottom: 0px
 }
 
 /* Footer */
@@ -86,10 +85,19 @@ img {
     padding: 20px 0;
     background-color: var(--dark-color);
     color: #fff;
-    position: relative;
-    bottom: 0;
     width: 100%;
     text-align: center;
+    margin-top: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
 }
 
 .footer h4 {
