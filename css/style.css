@@ -88,6 +88,8 @@ img {
     width: 100%;
     text-align: center;
     margin-top: auto;
+    position: relative; /* Ensure it stays within the flow of the document */
+    bottom: 0;
 }
 
 body {
@@ -104,6 +106,7 @@ main {
     margin-bottom: 10px;
     color: #ccc; /* Set a contrasting color */
 }
+
 
 .footer ul li {
     font-size: 0.8rem; /* Make other text smaller */
